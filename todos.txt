@@ -1,4 +1,4 @@
 prepare
-fix the computer
+fix the program
 wash the clothes
-Master Python
+Learn PythonAdded
