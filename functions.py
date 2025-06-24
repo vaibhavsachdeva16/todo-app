@@ -1,4 +1,7 @@
-def get_todos(filepath='todos.txt'):
+FILEPATH = "todos.txt"
+
+
+def get_todos(filepath=FILEPATH):
     """
     Read a text file and return the list of
     to-do items.
@@ -8,14 +11,14 @@ def get_todos(filepath='todos.txt'):
     return todos_local
 
 
-def write_todos(todos_arg, filepath='todos.txt'):
+def write_todos(todos_arg, filepath=FILEPATH):
     """
     Write the to-do items list in the text file.
     """
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
 
-# only when this file is run it's name is main.
+# only when this file is run its name is main.
 # If it is run from other files or imported then it's name is functions (what it's name is)
 # print(__name__)
 
